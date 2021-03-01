@@ -49,9 +49,10 @@ img{
     padding-top: 10px;
     border-radius: 10px;
     background-color: white;
-    background-size: cover;
+    background-size:cover;
     display: none;
 }
+/*bisogna modificare per coprire tutto con il bianco*/
 h3{
     font-family: 'Oi', cursive;
     display: none;
