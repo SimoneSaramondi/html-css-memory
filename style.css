@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{      
+    width: 900px;
+    margin: auto;
+      
+}
+header{
+    text-align: center;
+    font-family: 'Oi', cursive;
+    color: white;
+    padding: 30px;    
+    background-color: cornflowerblue;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+main{
+    background-color: cornflowerblue;
+    height: 810px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oi', cursive;
+    color: black;
+    background-color: cornflowerblue;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
